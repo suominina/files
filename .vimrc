@@ -17,6 +17,9 @@ set path+=**
 set wildmenu
 set nocompatible
 
+" let vim copy & paste by ctrl + c & ctrl + v
+source $VIMRUNTIME/mswin.vim
+
 "let vim open man pages within it like :Man 3 printf
 runtime! ftplugin/man.vim
 
